@@ -1,0 +1,4 @@
+File "/home/thu/anaconda3/lib/python3.5/site-packages/tensorflow/python/framework/common_shapes.py", line 659, in _call_cpp_shape_fn_impl
+    raise ValueError(err.message)
+ValueError: Shape must be rank 1 but is rank 0 for 'bn_conv1/Reshape_4' (op: 'Reshape') with input shapes: [1,1,1,64], [].
+Debug: pip install keras==2.1.4
