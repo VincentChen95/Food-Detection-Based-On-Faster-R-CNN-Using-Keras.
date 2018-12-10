@@ -10,6 +10,7 @@
 ## Test result
 <br>In this project, we achieve 82% mean accuracy for all 19 kinds of food. According to the confusion matrix, we can konw that the result is balanced.
 ![the_comfucion_matrix](https://user-images.githubusercontent.com/36937088/49712623-38509100-fbfa-11e8-85cd-ba4344897fc4.jpg)
+The test result show as below.
 ![merge_from_ofoct 5](https://user-images.githubusercontent.com/36937088/49711856-98ddcf00-fbf6-11e8-874b-f811af850141.jpg)
 ## Requirement
 <br>h5py
