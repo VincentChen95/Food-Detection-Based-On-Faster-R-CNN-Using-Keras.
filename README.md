@@ -9,8 +9,8 @@
 <br>We employed Keras to implement Faster RCNN. For Faster RCNN, it use Region Proposal Network(RPN) to generate the prediction box. specifically, RPN uses CNN to extract a feature map(51*39*256). Then each point at the feature map is responsible for the screening of 9 boxes with different size in the original image. The goal for screening is to check whether there is an object or not in the box. All these points are called 'anchors'. You can adjust the size of the box. After RPN generate the box, we use ResNet to classify all these boxes.
 ## Test result
 <br>In this project, we achieve 82% mean accuracy for all 19 kinds of food. According to the confusion matrix, we can konw that the result is balanced.
-![the_comfucion_matrix](https://user-images.githubusercontent.com/36937088/49712623-38509100-fbfa-11e8-85cd-ba4344897fc4.jpg)
-The test result show as below.
+<img src="https://user-images.githubusercontent.com/36937088/49712623-38509100-fbfa-11e8-85cd-ba4344897fc4.jpg" width="50%" height="50%">
+<br>The test result show as below.
 ![merge_from_ofoct 5](https://user-images.githubusercontent.com/36937088/49711856-98ddcf00-fbf6-11e8-874b-f811af850141.jpg)
 ## Requirement
 <br>h5py
